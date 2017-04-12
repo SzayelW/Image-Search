@@ -13,11 +13,11 @@ User stories:
 -I can get a list of the most recently submitted search strings.
 
 Usage:
-/api/imagesearch/cats?offset=5
+https://imgsearchal.herokuapp.com/api/imagesearch/cats?offset=5
 Output:
 A json response with at leats 10 results(if offset is null)
 
 Usage: 
-/api/latest/imagesearch/
+https://imgsearchal.herokuapp.com/api/latest/imagesearch/
 Output:
 latest ten results
