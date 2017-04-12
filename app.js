@@ -6,9 +6,6 @@ var mongoUrl = process.env.MONGOLAB_URI
 var apikey = process.env.API_KEY
 var cx = process.env.CX
 
-app.get('/', (req,res)=>{
-    res.send("Hello")
-})
 app.get('/api/imagesearch/:search', (req,res)=>{
     var search = req.params.search
     var offset = req.query.offset || 10
